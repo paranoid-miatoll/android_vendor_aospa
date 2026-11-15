@@ -14,6 +14,9 @@
   <project path="frameworks/native" name="paranoid-miatoll/android_frameworks_native" remote="github" revision="celerity" />
   <project path="hardware/interfaces" name="paranoid-miatoll/hardware_interfaces" remote="github" revision="celerity" />
 
+  <!-- Non-A/B OTA updater -->
+  <project path="bootable/deprecated-ota" name="paranoid-miatoll/android_bootable_deprecated-ota" remote="github" revision="calcite" />
+
   <!-- Qualcomm MSM-4.14 HALs (sm6250/atoll) tracked from paranoid-miatoll -->
   <project path="hardware/qcom/display" name="paranoid-miatoll/android_hardware_qcom_display" remote="github" revision="calcite-855" />
   <project path="hardware/qcom/media" name="paranoid-miatoll/android_hardware_qcom_media" remote="github" revision="calcite-855" />
